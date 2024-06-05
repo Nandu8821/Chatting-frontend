@@ -24,7 +24,7 @@ const Signup = () => {
         headers: {
           'Content-Type': 'application/json'
         },
-        withCredentials: true
+        withCredentials: false
       });
       if (res.data.success) {
         navigate("/login");
