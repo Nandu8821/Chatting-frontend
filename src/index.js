@@ -10,7 +10,7 @@ import { persistStore } from 'redux-persist';
 
 let persistor = persistStore(store);
 
-export const BASE_URL="https://chatting-backend-gamma.vercel.app"
+export const BASE_URL="https://chatting-backend-v4y0.onrender.com"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
